@@ -3,7 +3,7 @@ description: Request time off
 title: "OOO: [GITHUB_HANDLE] from [MM/DD] to [MM/DD]"
 labels: ["triage"]
 assignees:
-  - aimstory
+  - a-a-ron
 body:
   - type: markdown
     attributes:
@@ -34,4 +34,4 @@ body:
    - type: markdown
     attributes:
       value: |
-      @github/ps-content-and-enablement for team awareness
+      ps-content-and-enablement for team awareness

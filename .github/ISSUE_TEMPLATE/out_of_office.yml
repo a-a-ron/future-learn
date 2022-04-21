@@ -8,7 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        ![11OUTOFTHEOFFICE-superJumbo](https://user-images.githubusercontent.com/6351798/164553799-fb9a52a8-4fe8-4fde-95ed-97cade3a9e69.gif) </br>
+        We're glad you're taking some time off! Please fill out the below form so the team knows what dates you're requesting and if you need help covering anyting while you're out. 
   - type: input
     id: contact
     attributes:

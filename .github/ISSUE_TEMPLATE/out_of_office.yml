@@ -22,11 +22,11 @@ body:
         - "Yes"
         - "No"
    - type: checkboxes
-    id: prereqs
-    attributes:
-      label: Next steps
-      description: Before your OOO, make sure to check off the below items
-      options:
-        - label: Set your [email auto-responder](https://support.google.com/mail/answer/25922) to display an OOO message
-        - label: Mark your google calendar to decline meetings/events for the requested OOO time
-        - label: Update the [team spreadsheet](https://docs.google.com/spreadsheets/d/181Oa5CmUWdVhII0EnWHyrYJzPlHHZ_NIR1eZpN0WekU/edit#gid=1928055824) with your requested OOO time
+     id: prereqs
+     attributes:
+       label: Next steps
+       description: Before your OOO, make sure to check off the below items
+       options:
+         - label: Set your [email auto-responder](https://support.google.com/mail/answer/25922) to display an OOO message
+         - label: Mark your google calendar to decline meetings/events for the requested OOO time
+         - label: Update the [team spreadsheet](https://docs.google.com/spreadsheets/d/181Oa5CmUWdVhII0EnWHyrYJzPlHHZ_NIR1eZpN0WekU/edit#gid=1928055824) with your requested OOO time

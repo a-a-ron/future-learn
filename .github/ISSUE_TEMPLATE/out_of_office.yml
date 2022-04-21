@@ -19,5 +19,5 @@ body:
       label: Do you need someone to cover for you during your time OOO?
       multiple: true
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"

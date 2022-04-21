@@ -1,9 +1,9 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: Out of Office Request Form
+description: Request time off
+title: "OOO: [GITHUB_HANDLE] from [MM/DD] to [MM/DD]"
+labels: ["triage"]
 assignees:
-  - octocat
+  - aimstory
 body:
   - type: markdown
     attributes:
@@ -11,53 +11,27 @@ body:
         ![11OUTOFTHEOFFICE-superJumbo](https://user-images.githubusercontent.com/6351798/164553799-fb9a52a8-4fe8-4fde-95ed-97cade3a9e69.gif) </br>
         <div align="center"><h1> Yay! We're glad you're taking some time off!</h1> </br></br> <h3>Please fill out the below form so the team knows what dates you're requesting and if you need help covering anything while you're out.</h3></div> 
   - type: input
-    id: contact
+    id: ooo-timeframe
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
+      label: What date(s) are you requesting time off?
   - type: dropdown
-    id: version
+    id: ships
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
+      label: Do you need someone to cover for you during your time OOO?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+        - Yes
+        - No
   - type: checkboxes
-    id: terms
+    id: prereqs
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Next steps
+      description: Before your OOO, make sure to check off the below items
       options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+        - label: Set your [email auto-responder](https://support.google.com/mail/answer/25922) to display an OOO message
+        - label: Mark your google calendar to decline meetings/events for the requested OOO time
+        - label: Update the [team spreadsheet](https://docs.google.com/spreadsheets/d/181Oa5CmUWdVhII0EnWHyrYJzPlHHZ_NIR1eZpN0WekU/edit#gid=1928055824) with your requested OOO time
+   - type: markdown
+    attributes:
+      value: |
+      @github/ps-content-and-enablement for team awareness

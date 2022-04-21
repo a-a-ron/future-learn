@@ -21,6 +21,11 @@ body:
       options:
         - "Yes"
         - "No"
+  - type: textarea
+    id: need-help
+    attributes:
+      label: Responsibilities that need covered
+      description: If you answered yes to the above question, please provide a description of what you need help with while you are OOO
   - type: checkboxes
     id: tasks
     attributes:

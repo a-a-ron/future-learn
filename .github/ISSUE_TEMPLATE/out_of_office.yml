@@ -31,6 +31,6 @@ body:
         - label: Mark your google calendar to decline meetings/events for the requested OOO time
         - label: Update the [team spreadsheet](https://docs.google.com/spreadsheets/d/181Oa5CmUWdVhII0EnWHyrYJzPlHHZ_NIR1eZpN0WekU/edit#gid=1928055824) with your requested OOO time
    - type: markdown
-    attributes:
-      value: |
-      ps-content-and-enablement for team awareness
+     attributes:
+       value: |
+         ps-content-and-enablement for team awareness

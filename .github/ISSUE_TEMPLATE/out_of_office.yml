@@ -5,10 +5,6 @@ labels: ["triage"]
 assignees:
   - a-a-ron
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
     id: ooo-timeframe
     attributes:

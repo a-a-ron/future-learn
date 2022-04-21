@@ -21,12 +21,12 @@ body:
       options:
         - "Yes"
         - "No"
-   - type: checkboxes
-     id: prereqs
-     attributes:
-       label: Next steps
-       description: Before your OOO, make sure to check off the below items
-       options:
-         - label: Set your email auto-responder to display an OOO message
-         - label: Mark your google calendar to decline meetings/events for the requested OOO time
-         - label: Update the team calendar spreadsheet with your requested OOO time
+  - type: checkboxes
+    id: operating-systems
+    attributes:
+      label: Which operating systems have you used?
+      description: You may select more than one.
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
